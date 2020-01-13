@@ -1,0 +1,297 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Formulario de registro y logueo*/
+.contenedorreg .formreg .formreg-header .formreg-title, .contenedorlog .formlog .formlog-header .formlog-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #ec5c1e;
+	text-align: center;
+	padding: 14px 0px;
+}
+
+.contenedorreg .formreg, .contenedorlog .formlog {
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 305px;
+	margin-left: 500px;
+	padding: 0px 20px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-radius: 3px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.contenedorreg .formreg .formreg-input, .contenedorlog .formlog .formlog-input {
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.contenedorreg .formreg .formreg-input:focus, .contenedorlog .formlog .formlog-input:focus {
+    border: 1px solid #ec5c1e;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.contenedorreg .formreg .formreg-input:hover, .contenedorlog .formlog .formlog-input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.contenedorreg .formreg .btnreg-submit, .contenedorlog .formlog .btnlog-submit {
+	width: 100%;
+	font-family: Calibri;
+	outline: none;
+	background: #ec5c1e;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 10px 0px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	transition: all .2s ease;
+}
+
+.contenedorreg .formreg .btnreg-submit:hover, .contenedorlog .formlog .btnlog-submit:hover {
+	background: #f96b2e;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.contenedorreg .formreg .formreg-loguear, .contenedorlog .formlog .formlog-reg {
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 0px;
+	margin-top: -20px;
+	text-decoration: none;
+}
+
+.contenedorreg .formreg .formreg-loguear a, .contenedorlog .formlog .formlog-reg a {
+	text-decoration: none;
+	color: black;
+}
+
+.contenedorreg .formreg .formreg-loguear a:hover, .contenedorlog .formlog .formlog-reg a:hover {
+	text-decoration: none;
+	color: #1d1e1e;
+}
+
+.form-message {
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #ee0c27;
+	text-align: center;
+	padding: 14px 0px;
+}
+
+/*listado*/
+
+.contenedor-novedad-tabla {
+	margin: auto;
+	width: 895px;
+	
+}
+
+.cabecera-tabla {
+	color: white;
+	margin: auto;
+	width: 895px;
+	text-align: center;
+	border-collapse: collapse;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.cabecera-tabla tr {
+    background-color: #ec5c1e;
+	color: white; 
+	padding: 5px;
+}
+
+th,td {
+	padding: 5px;
+}
+
+.novedad-tabla {
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.novedad-tabla tr {
+	background-color: #f5f7f9; 
+	padding: 5px;
+}
+
+.novedad-tabla tr:hover {
+	background-color: #a6cbf4;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+	transition: all .2s ease;
+}
+
+.col-titulo-novedad {
+	width: 500px;
+	text-align: center;
+}
+
+.col-novedad {
+	width: 500px;
+}
+
+.col-autor {
+	width: 80px;
+	padding: 0px;
+	text-align: center;
+}
+
+.col-titulo-autor {
+	width: 80px;
+	text-align: center;
+}
+
+.margen-inf {
+	height: 40px;
+}
+
+/* ingresar novedad */
+
+.contenedor-form-ingresar {
+	border: none;
+	outline: none;
+	width: 100%;
+	padding: 8px;
+	margin-top: 250px;
+	margin-bottom: 0px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #FFF;	
+}
+
+.form-ingresar {
+	border: none;
+	outline: none;
+	width: 565px;
+	padding: 8px;
+	margin-left: 390px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.form-ingresar-input, .form-select-lista {
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	width: 350px;
+	height: 35px;
+	padding: 8px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #FFF;
+}
+
+.form-ingresar-input:hover, .form-ingresar-input:focus {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);	
+}
+
+.btn-ingresar {
+    width: 60px;
+	outline: none;
+	background: #ec5c1e;
+	font-size: 14px;
+	border: none;
+	color: #fff;
+	padding: 10px 0px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.btn-ingresar:hover {
+	background: #f96b2e;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+	transition: all .2s ease;
+}
+
+/* barra de navegacion */
+
+.header {
+	background: rgba(236, 92, 30);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 40px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+.header a {
+	color: white; 
+	padding: 2rem 0;
+	text-decoration: none;
+}
+
+.usuario-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.user {
+	font-family: Calibri;
+	width: 300px;
+	height: 20px;
+	margin-top: 3px;
+}
+
+.user span {
+	color: #1d1e1e;
+	margin-bottom: 2px;
+	margin-right: 4px;
+}
+
+.user p {
+	font-family: Calibri;
+	color: #1d1e1e;
+	margin-bottom: 4px;
+	margin-left: 20px;
+}
+
+.navigation span {
+	color: #1d1e1e;
+	font-size: 150%;
+	margin-left: 10px;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li {
+	display: inline-block;
+}
+
+.navigation ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+.icon-plus:hover, .icon-list:hover, .icon-sign-out:hover {
+ 	color: #47423f;
+ }

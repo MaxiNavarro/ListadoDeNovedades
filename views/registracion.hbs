@@ -1,0 +1,19 @@
+
+<br><br><br><br><br><br><br>
+<div class='contenedorreg'>
+   <form action='/registracion' class='formreg' method='post'>
+      <div class='formreg-header'>
+         <h1 class='formreg-title'>Crear Usuario</h1>
+      </div>
+      <input type='text' class='formreg-input' name='usuario' value='{{user}}' placeholder='Usuario'>
+      <input type='text' class='formreg-input' name='legajo' value='{{file}}' placeholder='N&uacute;mero de Legajo'>
+      <input type='password' class='formreg-input' name='password' value='{{pass}}' placeholder='Contrase&ntilde;a'>
+      <input type='submit' class='btnreg-submit' value='Registrarme'>
+      <div class='formreg-loguear'>
+         <a href='/formulario_login'>Iniciar Sesi&oacute;n</a>
+      </div>
+      <div class='form-message'>
+         {{mensaje_error}}
+      </div>
+   </form>
+</div>

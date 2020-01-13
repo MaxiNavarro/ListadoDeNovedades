@@ -1,0 +1,2 @@
+El trabajo consiste en una página mostrar novedades. La misma cuenta con un formulario de registro y otro de login, una vez registrado y posterior logueo se puede ingresar al listado de novedades donde se muestran junto al usuario que las creó.
+Este trabajo se realizó con NodeJS, Express, MongoDB, Handlebars y CSS.

@@ -1,0 +1,23 @@
+
+   <header class='header'>
+     <div class='usuario-nav-container'>
+       <div class='user'>
+         <p><span class='icon-user-circle-o'></span>{{usuario}}
+       </div>
+       <div class='links'>
+         <nav class='navigation'>
+           <ul>
+             <li><a href='/listado' title='Listado de novedades'><span class='icon-list'></span></a></li>
+             <li><a href='/logout' title='Cerrar Sesi&oacute;n'><span class='icon-sign-out'></span></a></li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </header>
+   <div class='contenedor-form-ingresar'>
+     <form action='/nueva_novedad' method='post' class='form-ingresar'>
+       <input class='form-ingresar-input' type='text' name='novedad' placeholder='Ingresar novedad'>
+       <input class='btn-ingresar' type='submit' value='Agregar'>
+     </form>
+   </div>
+               

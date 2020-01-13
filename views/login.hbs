@@ -1,0 +1,18 @@
+
+<br><br><br><br><br><br><br>
+<div class='contenedorlog'>
+   <form action='/login' class='formlog' method='post'>
+      <div class='formlog-header'>
+         <h1 class='formlog-title'>Iniciar Sesi&oacute;n</h1>
+      </div>
+      <input type='text' class='formlog-input' name='usuario' value='{{user}}' placeholder='Usuario'>
+      <input type='password' class='formlog-input' name='password' value='{{pass}}' placeholder='Contrase&ntilde;a'>
+      <input type='submit' class='btnlog-submit' value='Iniciar Sesi&oacute;n'>
+      <div class='formlog-reg'>
+         <a href='/formulario_registro'>Registrarme</a>
+      </div>
+      <div class='form-message'>
+         {{mensaje_error}}
+      </div>
+   </form>
+</div>

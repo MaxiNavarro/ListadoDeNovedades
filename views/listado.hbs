@@ -1,0 +1,43 @@
+
+   <header class='header'>
+     <div class='usuario-nav-container'>
+       <div class='user'>
+         <p><span class='icon-user-circle-o'></span>{{usuario}}
+       </div>
+       <div class='links'>
+         <nav class='navigation'>
+           <ul>
+             <li><a href='/ingresar_novedad' title='Agregar novedad'><span class='icon-plus'></span></a></li>
+             <li><a href='/logout' title='Cerrar Sesi&oacute;n'><span class='icon-sign-out'></span></a></li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+   </header>
+  
+   </div>
+   <br><br><br><br><br><br>
+   <div class='contenedor-titulos-tabla'>
+     <table class='cabecera-tabla'>
+       <tr>
+         <th class='col-titulo-novedad'>Novedad</th>
+         <th class='col-titulo-autor'>Autor</th>
+       </tr>
+     </table>
+   </div>
+ 
+  {{#each listaReverse}}
+	   <div class='contenedor-novedad-tabla'>
+        <table class='novedad-tabla'>
+          <tr>
+            <td class='col-novedad'>{{this.novedad}}</td>
+            <td class='col-autor'>{{this.creador}}</td>
+          </tr>
+        </table>
+     </div> 
+  {{/each}}
+
+  <div class='margen-inf'>
+  </div>
+
+
